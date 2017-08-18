@@ -1,0 +1,68 @@
+@media (max-width: 991px) {
+  header {
+    .top-header-block {
+      .search {
+        margin-top: 20px;
+        form {
+          input {
+            position: relative;
+            min-width: 130px;
+            width: 100%;
+            min-height: 30px;
+            background: $white url("../images/search.png") no-repeat right;
+            border: 1px solid #e1e1e1;
+          }
+        }
+      }
+    }
+    .nav{
+      .menu {
+        ul {
+          li {
+            a {
+              font-size: 1.125rem;
+              padding: 5px 10px;
+            }
+          }
+        }
+      }
+    }
+    .top-slider {
+      #top{
+        .top-owl-item {
+          img {
+            max-width: 250px;
+          }
+          .top-owl-content {
+            h1 {
+              font-size: $fs-large;
+            }
+            p {
+              font-size: 0.875rem;
+            }
+            button {
+              width: 130px;
+              height: 40px;
+              span {
+                font-size: $fs-title;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .catalog {
+    max-height: 630px;
+    overflow: hidden;
+  }
+  footer {
+    .links {
+      max-height: 175px;
+      overflow: hidden;
+      max-width: 135px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}

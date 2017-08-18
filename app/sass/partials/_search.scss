@@ -1,0 +1,17 @@
+header {
+  .top-header-block {
+    .search {
+      margin-top: 10px;
+      form {
+        input {
+          position: relative;
+          min-width: 310px;
+          width: 100%;
+          min-height: 30px;
+          background: $white url("../images/search.png") no-repeat right;
+          border: 1px solid #e1e1e1;
+        }
+      }
+    }
+  }
+}

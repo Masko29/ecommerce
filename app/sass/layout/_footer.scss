@@ -1,0 +1,31 @@
+footer {
+  max-height: 385px;
+  background-color: $sea-wave;
+  padding: 20px 20px 40px;
+  .links {
+    h1 {
+      margin: 20px 0;
+      a {
+        text-decoration: none;
+        font-family: $bebas-b;
+        font-size: 1.625rem;
+        color: $white;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    ul {
+      font-size: 0;
+      li {
+        a {
+          font-family: $open-sans;
+          font-size: $fs-base;
+          color: $white;
+          text-decoration: none;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+}

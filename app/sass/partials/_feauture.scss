@@ -1,0 +1,15 @@
+.feautured-products {
+  height: 70px;
+  background-image: url("../images/bg.png");
+  background-repeat: repeat;
+  margin-bottom: 25px;
+  .future {
+    margin-top: 25px;
+    margin-left: 30px;
+    span {
+      font-family: $bebas-b;
+      font-size: $fs-title-extra-large;
+      color: $white;
+    }
+  }
+}

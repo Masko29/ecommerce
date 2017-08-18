@@ -1,0 +1,22 @@
+header {
+  .top-header-block {
+    .basket {
+      position: relative;
+      float: right;
+      margin-top: 10px;
+      width: 115px;
+      .sum {
+        font-family: $bebas-b;
+        font-size: 2.063rem;
+        color: $gray;
+        margin-left: 60px;
+        &:before {
+          content: url("../images/basket.png");
+          position: absolute;
+          left: 0;
+          bottom: 0;
+        }
+      }
+    }
+  }
+}
