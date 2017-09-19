@@ -21,6 +21,7 @@
       text-align: center;
       display: block;
     }
+    // названия классов должны быть семантичны, чтобы тому, кто читает код, было сразу понятно для чего это
     .div {
       text-align: center;
       margin: 10px auto;
@@ -37,6 +38,7 @@
         border-radius: 3px;
         width: 75px;
         height: 35px;
+        // у тебя заведены переменные для разных цветов, почему бы этот цвет не запихнуть в переменную тоже?
         background: #3cc395;
         margin-left: 10px;
         outline: none;

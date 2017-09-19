@@ -3,6 +3,7 @@ header {
     position: relative;
     max-height: 190px;
     box-shadow: 1px 2px 3px rgba(0, 0, 0, .13);
+    // опять id
     #triple {
       .owl-nav  {
         font-size: 0;
@@ -44,6 +45,7 @@ header {
           }
         }
         button {
+          // опять повторяются стили
           cursor: pointer;
           width: 65px;
           float: left;
